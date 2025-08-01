@@ -1,0 +1,40 @@
+# AdonisJS
+node_modules/
+.tmp/
+database/*.sqlite
+coverage/
+.idea/
+.vscode/
+.DS_Store
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# AdonisJS specific
+public/assets/
+public/uploads/
+
+# OS generated files
+Thumbs.db
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+# Node modules
+node_modules
+package-lock.json
+
+# Adonis directory for storing tmp files
+tmp
+
+# The development sqlite file
+database/*.sqlite
+
+# VSCode & Webstorm history directories
+.history
+.idea

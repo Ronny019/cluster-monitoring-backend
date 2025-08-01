@@ -3,7 +3,7 @@
     {
       "cluster_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "cluster_name": "ProductionCluster",
-      "policyName": "ProjectX_Daily_Updated_LALALA",
+      "policyName": "ProjectX_Daily_Updated_LA",
       "applyDirectory": "Production/ProjectX",
       "scheduleType": "Daily or Weekly",
       "timeZone": "America/Los Angeles",
