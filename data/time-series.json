@@ -1,0 +1,68 @@
+{
+  "time_series": [
+    {
+      "cluster_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "type": "IOPS",
+      "data": [
+        { "datetime": "2025-07-01T07:00:00Z", "read": 20000, "write": 10000 },
+        { "datetime": "2025-07-01T19:00:00Z", "read": 25000, "write": 12000 },
+        { "datetime": "2025-07-02T07:00:00Z", "read": 40000, "write": 40000 },
+        { "datetime": "2025-07-02T19:00:00Z", "read": 42000, "write": 41000 },
+        { "datetime": "2025-07-03T07:00:00Z", "read": 60000, "write": 30000 },
+        { "datetime": "2025-07-03T19:00:00Z", "read": 61000, "write": 32000 },
+        { "datetime": "2025-07-04T07:00:00Z", "read": 80000, "write": 20000 },
+        { "datetime": "2025-07-04T19:00:00Z", "read": 85000, "write": 25000 },
+        { "datetime": "2025-07-05T07:00:00Z", "read": 100000, "write": 50000 },
+        { "datetime": "2025-07-05T19:00:00Z", "read": 105000, "write": 52000 }
+      ]
+    },
+    {
+      "cluster_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "type": "Throughput",
+      "data": [
+        { "datetime": "2025-07-01T07:00:00Z", "read": 0.5, "write": 0.2 },
+        { "datetime": "2025-07-01T19:00:00Z", "read": 0.7, "write": 0.3 },
+        { "datetime": "2025-07-02T07:00:00Z", "read": 1.0, "write": 0.8 },
+        { "datetime": "2025-07-02T19:00:00Z", "read": 1.1, "write": 0.9 },
+        { "datetime": "2025-07-03T07:00:00Z", "read": 1.5, "write": 1.2 },
+        { "datetime": "2025-07-03T19:00:00Z", "read": 1.7, "write": 1.3 },
+        { "datetime": "2025-07-04T07:00:00Z", "read": 2.0, "write": 1.7 },
+        { "datetime": "2025-07-04T19:00:00Z", "read": 2.1, "write": 1.8 },
+        { "datetime": "2025-07-05T07:00:00Z", "read": 2.0, "write": 1.9 },
+        { "datetime": "2025-07-05T19:00:00Z", "read": 2.2, "write": 2.0 }
+      ]
+    },
+    {
+      "cluster_id": "b2c3d4e5-f6a7-8901-bcde-f234567890ab",
+      "type": "IOPS",
+      "data": [
+        { "datetime": "2025-07-01T02:30:00Z", "read": 15000, "write": 8000 },
+        { "datetime": "2025-07-01T14:30:00Z", "read": 18000, "write": 9000 },
+        { "datetime": "2025-07-02T02:30:00Z", "read": 25000, "write": 12000 },
+        { "datetime": "2025-07-02T14:30:00Z", "read": 27000, "write": 13000 },
+        { "datetime": "2025-07-03T02:30:00Z", "read": 35000, "write": 20000 },
+        { "datetime": "2025-07-03T14:30:00Z", "read": 37000, "write": 21000 },
+        { "datetime": "2025-07-04T02:30:00Z", "read": 50000, "write": 25000 },
+        { "datetime": "2025-07-04T14:30:00Z", "read": 52000, "write": 26000 },
+        { "datetime": "2025-07-05T02:30:00Z", "read": 60000, "write": 30000 },
+        { "datetime": "2025-07-05T14:30:00Z", "read": 62000, "write": 32000 }
+      ]
+    },
+    {
+      "cluster_id": "b2c3d4e5-f6a7-8901-bcde-f234567890ab",
+      "type": "Throughput",
+      "data": [
+        { "datetime": "2025-07-01T02:30:00Z", "read": 0.3, "write": 0.1 },
+        { "datetime": "2025-07-01T14:30:00Z", "read": 0.4, "write": 0.2 },
+        { "datetime": "2025-07-02T02:30:00Z", "read": 0.7, "write": 0.5 },
+        { "datetime": "2025-07-02T14:30:00Z", "read": 0.8, "write": 0.6 },
+        { "datetime": "2025-07-03T02:30:00Z", "read": 1.2, "write": 0.9 },
+        { "datetime": "2025-07-03T14:30:00Z", "read": 1.3, "write": 1.0 },
+        { "datetime": "2025-07-04T02:30:00Z", "read": 1.8, "write": 1.3 },
+        { "datetime": "2025-07-04T14:30:00Z", "read": 1.9, "write": 1.4 },
+        { "datetime": "2025-07-05T02:30:00Z", "read": 2.0, "write": 1.6 },
+        { "datetime": "2025-07-05T14:30:00Z", "read": 2.1, "write": 1.7 }
+      ]
+    }
+  ]
+}
