@@ -5,6 +5,25 @@ const fs = require('fs').promises;
 const path = require('path');
 
 class DatumController {
+  // Get all cluster_id and cluster_data from snapshot.json
+  async getAllClusters({ response }) {
+    try {
+      const filePath = path.join(__dirname, '../../../data/snapshot.json');
+      const fileContent = await fs.readFile(filePath, 'utf8');
+      const data = JSON.parse(fileContent);
+      if (!data.snapshots || !Array.isArray(data.snapshots)) {
+        return response.status(500).json({ error: 'Invalid snapshot data format' });
+      }
+      // Map to only cluster_id and cluster_name
+      const clusters = data.snapshots.map(item => ({
+        cluster_id: item.cluster_id,
+        cluster_name: item.cluster_name
+      }));
+      return response.json(clusters);
+    } catch (err) {
+      return response.status(500).json({ error: 'Failed to read snapshot data', details: err.message });
+    }
+  }
 
   async getSnapshot({ request, response }) {
     try {
