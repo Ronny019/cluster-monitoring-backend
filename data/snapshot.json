@@ -29,11 +29,11 @@
       "cluster_id": "b2c3d4e5-f6a7-8901-bcde-f234567890ab",
       "cluster_name": "Dev Cluster",
       "policyName": "Dev_Nightly",
-      "applyDirectory": "Development/DevApp",
+      "applyDirectory": "Development/DevAppTest",
       "scheduleType": "Daily or Weekly",
       "timeZone": "America/New_York",
       "snapshotHour": "02",
-      "snapshotMinute": "30",
+      "snapshotMinute": "09",
       "days": {
         "everyDay": true,
         "mon": true,
@@ -45,8 +45,8 @@
         "sun": true
       },
       "deleteOption": "never",
-      "deleteAfter": "",
-      "deleteAfterUnit": "",
+      "deleteAfter": "14",
+      "deleteAfterUnit": "day(s)",
       "lockedSnapshotsEnabled": false,
       "enablePolicy": true
     }
