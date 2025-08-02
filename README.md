@@ -30,7 +30,7 @@ Create a `.env` file in the root directory if you need to override AdonisJS defa
 ## Running Locally
 1. Clone the repo:
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/Ronny019/cluster-monitoring-backend.git
    cd cluster-monitoring-backend
    ```
 2. Install dependencies:
@@ -174,5 +174,6 @@ All endpoints return errors in the following format:
 Common errors:
 - 400: Missing required parameters
 - 500: Internal server/data error
+
 
 ---
