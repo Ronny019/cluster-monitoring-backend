@@ -2,7 +2,7 @@
   "snapshots": [
     {
       "cluster_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "cluster_name": "ProductionCluster",
+      "cluster_name": "Production Cluster",
       "policyName": "ProjectX_Daily_Updated_LAPD",
       "applyDirectory": "Production/ProjectX_NAS",
       "scheduleType": "Daily or Weekly",
@@ -15,9 +15,9 @@
         "tue": true,
         "wed": true,
         "thur": true,
-        "fri": false,
-        "sat": false,
-        "sun": true
+        "fri": true,
+        "sat": true,
+        "sun": false
       },
       "deleteOption": "never",
       "deleteAfter": "14",
@@ -27,7 +27,7 @@
     },
     {
       "cluster_id": "b2c3d4e5-f6a7-8901-bcde-f234567890ab",
-      "cluster_name": "DevCluster",
+      "cluster_name": "Dev Cluster",
       "policyName": "Dev_Nightly",
       "applyDirectory": "Development/DevApp",
       "scheduleType": "Daily or Weekly",
