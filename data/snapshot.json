@@ -2,12 +2,12 @@
   "snapshots": [
     {
       "cluster_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "cluster_name": "Production Cluster",
-      "policyName": "ProjectX_Daily_Updated_LAPD",
-      "applyDirectory": "Production/ProjectX_NAS",
+      "cluster_name": "ProductionCluster",
+      "policyName": "ProjectX_Daily_Updated_LA",
+      "applyDirectory": "Production/ProjectX",
       "scheduleType": "Daily or Weekly",
       "timeZone": "America/Los Angeles",
-      "snapshotHour": "10",
+      "snapshotHour": "08",
       "snapshotMinute": "15",
       "days": {
         "everyDay": false,
@@ -15,14 +15,14 @@
         "tue": true,
         "wed": true,
         "thur": true,
-        "fri": true,
-        "sat": true,
+        "fri": false,
+        "sat": false,
         "sun": false
       },
-      "deleteOption": "never",
+      "deleteOption": "auto",
       "deleteAfter": "14",
       "deleteAfterUnit": "day(s)",
-      "lockedSnapshotsEnabled": false,
+      "lockedSnapshotsEnabled": true,
       "enablePolicy": false
     },
     {
@@ -49,6 +49,10 @@
       "deleteAfterUnit": "day(s)",
       "lockedSnapshotsEnabled": false,
       "enablePolicy": true
+    },
+    {
+      "cluster_id": "test-cluster-id",
+      "cluster_name": "Test Cluster"
     }
   ]
 }
