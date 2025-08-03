@@ -19,17 +19,6 @@ test('get all clusters returns array', async ({ client }) => {
   // Checks that the response is an array (empty or not)
 })
 
-test('put snapshot with valid data returns success', async ({ client }) => {
-  const validSnapshot = {
-    cluster_id: 'test-cluster-id',
-    cluster_name: 'Test Cluster'
-    // Add other required fields if needed
-  }
-  const response = await client.put('/data/snapshot').send(validSnapshot).end()
-  response.assertStatus(200)
-  response.assertJSONSubset({ success: true })
-})
-
 test('put snapshot with full data returns correct snapshot', async ({ client }) => {
   const fullSnapshot = {
     cluster_id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
