@@ -1,5 +1,3 @@
-
-
 # Cluster Monitoring Backend (AdonisJS)
 
 ## Overview
@@ -45,6 +43,22 @@ Create a `.env` file in the root directory if you need to override AdonisJS defa
    - **IP:** 127.0.0.1
    - **Port:** 3333
    - **Base URL:** http://127.0.0.1:3333
+
+---
+
+## Running Tests
+
+To run all tests, use:
+
+```sh
+adonis test
+```
+
+or
+
+```sh
+node ace test
+```
 
 ---
 
