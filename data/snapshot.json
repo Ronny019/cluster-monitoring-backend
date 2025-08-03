@@ -49,10 +49,6 @@
       "deleteAfterUnit": "day(s)",
       "lockedSnapshotsEnabled": false,
       "enablePolicy": true
-    },
-    {
-      "cluster_id": "test-cluster-id",
-      "cluster_name": "Test Cluster"
     }
   ]
 }
